@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC59E6B51DF9313B00DD8072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC59E6B41DF9313B00DD8072 /* main.m */; };
+		EC59E6B81DF9313B00DD8072 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC59E6B71DF9313B00DD8072 /* AppDelegate.m */; };
+		EC59E6BB1DF9313B00DD8072 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC59E6BA1DF9313B00DD8072 /* ViewController.m */; };
+		EC59E6BE1DF9313B00DD8072 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC59E6BC1DF9313B00DD8072 /* Main.storyboard */; };
+		EC59E6C01DF9313B00DD8072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC59E6BF1DF9313B00DD8072 /* Assets.xcassets */; };
+		EC59E6C31DF9313B00DD8072 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC59E6C11DF9313B00DD8072 /* LaunchScreen.storyboard */; };
+		EC59E6CE1DF9313B00DD8072 /* HYWaveLoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC59E6CD1DF9313B00DD8072 /* HYWaveLoadingTests.m */; };
+		EC59E6D91DF9313B00DD8072 /* HYWaveLoadingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC59E6D81DF9313B00DD8072 /* HYWaveLoadingUITests.m */; };
+		EC59E6E91DF931A900DD8072 /* HYWaveLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC59E6E81DF931A900DD8072 /* HYWaveLoadingView.m */; };
+		EC59E6EA1DF931A900DD8072 /* HYWaveLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC59E6E81DF931A900DD8072 /* HYWaveLoadingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC59E6CA1DF9313B00DD8072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC59E6A81DF9313B00DD8072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC59E6AF1DF9313B00DD8072;
+			remoteInfo = HYWaveLoading;
+		};
+		EC59E6D51DF9313B00DD8072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC59E6A81DF9313B00DD8072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC59E6AF1DF9313B00DD8072;
+			remoteInfo = HYWaveLoading;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC59E6B01DF9313B00DD8072 /* HYWaveLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYWaveLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC59E6B41DF9313B00DD8072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC59E6B61DF9313B00DD8072 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC59E6B71DF9313B00DD8072 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC59E6B91DF9313B00DD8072 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC59E6BA1DF9313B00DD8072 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC59E6BD1DF9313B00DD8072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC59E6BF1DF9313B00DD8072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC59E6C21DF9313B00DD8072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC59E6C41DF9313B00DD8072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC59E6C91DF9313B00DD8072 /* HYWaveLoadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYWaveLoadingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC59E6CD1DF9313B00DD8072 /* HYWaveLoadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYWaveLoadingTests.m; sourceTree = "<group>"; };
+		EC59E6CF1DF9313B00DD8072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC59E6D41DF9313B00DD8072 /* HYWaveLoadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYWaveLoadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC59E6D81DF9313B00DD8072 /* HYWaveLoadingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYWaveLoadingUITests.m; sourceTree = "<group>"; };
+		EC59E6DA1DF9313B00DD8072 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC59E6E71DF931A900DD8072 /* HYWaveLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYWaveLoadingView.h; sourceTree = "<group>"; };
+		EC59E6E81DF931A900DD8072 /* HYWaveLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYWaveLoadingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC59E6AD1DF9313B00DD8072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC59E6C61DF9313B00DD8072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC59E6D11DF9313B00DD8072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC59E6A71DF9313B00DD8072 = {
+			isa = PBXGroup;
+			children = (
+				EC59E6B21DF9313B00DD8072 /* HYWaveLoading */,
+				EC59E6CC1DF9313B00DD8072 /* HYWaveLoadingTests */,
+				EC59E6D71DF9313B00DD8072 /* HYWaveLoadingUITests */,
+				EC59E6B11DF9313B00DD8072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC59E6B11DF9313B00DD8072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC59E6B01DF9313B00DD8072 /* HYWaveLoading.app */,
+				EC59E6C91DF9313B00DD8072 /* HYWaveLoadingTests.xctest */,
+				EC59E6D41DF9313B00DD8072 /* HYWaveLoadingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC59E6B21DF9313B00DD8072 /* HYWaveLoading */ = {
+			isa = PBXGroup;
+			children = (
+				EC59E6E61DF9314D00DD8072 /* HYWaveLoadingView */,
+				EC59E6B61DF9313B00DD8072 /* AppDelegate.h */,
+				EC59E6B71DF9313B00DD8072 /* AppDelegate.m */,
+				EC59E6B91DF9313B00DD8072 /* ViewController.h */,
+				EC59E6BA1DF9313B00DD8072 /* ViewController.m */,
+				EC59E6BC1DF9313B00DD8072 /* Main.storyboard */,
+				EC59E6BF1DF9313B00DD8072 /* Assets.xcassets */,
+				EC59E6C11DF9313B00DD8072 /* LaunchScreen.storyboard */,
+				EC59E6C41DF9313B00DD8072 /* Info.plist */,
+				EC59E6B31DF9313B00DD8072 /* Supporting Files */,
+			);
+			path = HYWaveLoading;
+			sourceTree = "<group>";
+		};
+		EC59E6B31DF9313B00DD8072 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC59E6B41DF9313B00DD8072 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC59E6CC1DF9313B00DD8072 /* HYWaveLoadingTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC59E6CD1DF9313B00DD8072 /* HYWaveLoadingTests.m */,
+				EC59E6CF1DF9313B00DD8072 /* Info.plist */,
+			);
+			path = HYWaveLoadingTests;
+			sourceTree = "<group>";
+		};
+		EC59E6D71DF9313B00DD8072 /* HYWaveLoadingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC59E6D81DF9313B00DD8072 /* HYWaveLoadingUITests.m */,
+				EC59E6DA1DF9313B00DD8072 /* Info.plist */,
+			);
+			path = HYWaveLoadingUITests;
+			sourceTree = "<group>";
+		};
+		EC59E6E61DF9314D00DD8072 /* HYWaveLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				EC59E6E71DF931A900DD8072 /* HYWaveLoadingView.h */,
+				EC59E6E81DF931A900DD8072 /* HYWaveLoadingView.m */,
+			);
+			name = HYWaveLoadingView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC59E6AF1DF9313B00DD8072 /* HYWaveLoading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC59E6DD1DF9313B00DD8072 /* Build configuration list for PBXNativeTarget "HYWaveLoading" */;
+			buildPhases = (
+				EC59E6AC1DF9313B00DD8072 /* Sources */,
+				EC59E6AD1DF9313B00DD8072 /* Frameworks */,
+				EC59E6AE1DF9313B00DD8072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYWaveLoading;
+			productName = HYWaveLoading;
+			productReference = EC59E6B01DF9313B00DD8072 /* HYWaveLoading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC59E6C81DF9313B00DD8072 /* HYWaveLoadingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC59E6E01DF9313B00DD8072 /* Build configuration list for PBXNativeTarget "HYWaveLoadingTests" */;
+			buildPhases = (
+				EC59E6C51DF9313B00DD8072 /* Sources */,
+				EC59E6C61DF9313B00DD8072 /* Frameworks */,
+				EC59E6C71DF9313B00DD8072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC59E6CB1DF9313B00DD8072 /* PBXTargetDependency */,
+			);
+			name = HYWaveLoadingTests;
+			productName = HYWaveLoadingTests;
+			productReference = EC59E6C91DF9313B00DD8072 /* HYWaveLoadingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC59E6D31DF9313B00DD8072 /* HYWaveLoadingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC59E6E31DF9313B00DD8072 /* Build configuration list for PBXNativeTarget "HYWaveLoadingUITests" */;
+			buildPhases = (
+				EC59E6D01DF9313B00DD8072 /* Sources */,
+				EC59E6D11DF9313B00DD8072 /* Frameworks */,
+				EC59E6D21DF9313B00DD8072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC59E6D61DF9313B00DD8072 /* PBXTargetDependency */,
+			);
+			name = HYWaveLoadingUITests;
+			productName = HYWaveLoadingUITests;
+			productReference = EC59E6D41DF9313B00DD8072 /* HYWaveLoadingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC59E6A81DF9313B00DD8072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Chy;
+				TargetAttributes = {
+					EC59E6AF1DF9313B00DD8072 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 56JANUDAHZ;
+						ProvisioningStyle = Automatic;
+					};
+					EC59E6C81DF9313B00DD8072 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 56JANUDAHZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC59E6AF1DF9313B00DD8072;
+					};
+					EC59E6D31DF9313B00DD8072 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 56JANUDAHZ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC59E6AF1DF9313B00DD8072;
+					};
+				};
+			};
+			buildConfigurationList = EC59E6AB1DF9313B00DD8072 /* Build configuration list for PBXProject "HYWaveLoading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC59E6A71DF9313B00DD8072;
+			productRefGroup = EC59E6B11DF9313B00DD8072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC59E6AF1DF9313B00DD8072 /* HYWaveLoading */,
+				EC59E6C81DF9313B00DD8072 /* HYWaveLoadingTests */,
+				EC59E6D31DF9313B00DD8072 /* HYWaveLoadingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC59E6AE1DF9313B00DD8072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC59E6C31DF9313B00DD8072 /* LaunchScreen.storyboard in Resources */,
+				EC59E6C01DF9313B00DD8072 /* Assets.xcassets in Resources */,
+				EC59E6BE1DF9313B00DD8072 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC59E6C71DF9313B00DD8072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC59E6D21DF9313B00DD8072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC59E6AC1DF9313B00DD8072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC59E6BB1DF9313B00DD8072 /* ViewController.m in Sources */,
+				EC59E6B81DF9313B00DD8072 /* AppDelegate.m in Sources */,
+				EC59E6B51DF9313B00DD8072 /* main.m in Sources */,
+				EC59E6E91DF931A900DD8072 /* HYWaveLoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC59E6C51DF9313B00DD8072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC59E6CE1DF9313B00DD8072 /* HYWaveLoadingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC59E6D01DF9313B00DD8072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC59E6D91DF9313B00DD8072 /* HYWaveLoadingUITests.m in Sources */,
+				EC59E6EA1DF931A900DD8072 /* HYWaveLoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC59E6CB1DF9313B00DD8072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC59E6AF1DF9313B00DD8072 /* HYWaveLoading */;
+			targetProxy = EC59E6CA1DF9313B00DD8072 /* PBXContainerItemProxy */;
+		};
+		EC59E6D61DF9313B00DD8072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC59E6AF1DF9313B00DD8072 /* HYWaveLoading */;
+			targetProxy = EC59E6D51DF9313B00DD8072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC59E6BC1DF9313B00DD8072 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC59E6BD1DF9313B00DD8072 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC59E6C11DF9313B00DD8072 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC59E6C21DF9313B00DD8072 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC59E6DB1DF9313B00DD8072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC59E6DC1DF9313B00DD8072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC59E6DE1DF9313B00DD8072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56JANUDAHZ;
+				INFOPLIST_FILE = HYWaveLoading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CHY.HYWaveLoading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC59E6DF1DF9313B00DD8072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56JANUDAHZ;
+				INFOPLIST_FILE = HYWaveLoading/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CHY.HYWaveLoading;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC59E6E11DF9313B00DD8072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 56JANUDAHZ;
+				INFOPLIST_FILE = HYWaveLoadingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CHY.HYWaveLoadingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYWaveLoading.app/HYWaveLoading";
+			};
+			name = Debug;
+		};
+		EC59E6E21DF9313B00DD8072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 56JANUDAHZ;
+				INFOPLIST_FILE = HYWaveLoadingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CHY.HYWaveLoadingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYWaveLoading.app/HYWaveLoading";
+			};
+			name = Release;
+		};
+		EC59E6E41DF9313B00DD8072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 56JANUDAHZ;
+				INFOPLIST_FILE = HYWaveLoadingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CHY.HYWaveLoadingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYWaveLoading;
+			};
+			name = Debug;
+		};
+		EC59E6E51DF9313B00DD8072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 56JANUDAHZ;
+				INFOPLIST_FILE = HYWaveLoadingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CHY.HYWaveLoadingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HYWaveLoading;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC59E6AB1DF9313B00DD8072 /* Build configuration list for PBXProject "HYWaveLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC59E6DB1DF9313B00DD8072 /* Debug */,
+				EC59E6DC1DF9313B00DD8072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC59E6DD1DF9313B00DD8072 /* Build configuration list for PBXNativeTarget "HYWaveLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC59E6DE1DF9313B00DD8072 /* Debug */,
+				EC59E6DF1DF9313B00DD8072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC59E6E01DF9313B00DD8072 /* Build configuration list for PBXNativeTarget "HYWaveLoadingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC59E6E11DF9313B00DD8072 /* Debug */,
+				EC59E6E21DF9313B00DD8072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC59E6E31DF9313B00DD8072 /* Build configuration list for PBXNativeTarget "HYWaveLoadingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC59E6E41DF9313B00DD8072 /* Debug */,
+				EC59E6E51DF9313B00DD8072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC59E6A81DF9313B00DD8072 /* Project object */;
+}
